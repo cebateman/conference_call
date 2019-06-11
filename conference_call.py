@@ -7,6 +7,10 @@ app = Flask(__name__)
 # Update with your own phone number in E.164 format
 MODERATOR = '+12537929893'
 
+@app.route("/")
+def hello():
+    return "Hello, World!"
+
 
 @app.route("/voice", methods=['GET', 'POST'])
 def call():
