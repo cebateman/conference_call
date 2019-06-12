@@ -5,3 +5,4 @@ certifi==0.0.8
 chardet==1.0.1
 gunicorn>=19.5.0
 requests>=2.20.0
+twilio==6.25.2
